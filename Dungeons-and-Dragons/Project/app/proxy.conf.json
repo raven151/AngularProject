@@ -1,0 +1,10 @@
+{
+    "": {
+      "target": "http://shibe.online/api/shibes?count=[1-100]&urls=[true/false]&httpsUrls=[true/false]",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }

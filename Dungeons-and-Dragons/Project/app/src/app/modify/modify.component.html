@@ -1,0 +1,21 @@
+<form>
+
+<h2>Modify a class</h2>
+<div class="form">
+
+    <label for="onamein">Current name:</label><br>
+    <input type="text" id="onamein" name="onamein" placeholder="Enter the  currentName" value="" [(ngModel)]="oldname">  <br><br>
+    <label for="idin">ID:</label><br>
+    <input type="text" id="idin" name="idin" placeholder="Enter the ID" value="" [(ngModel)]="adatom.index"> <br><br>
+    <label for="namein">New name:</label><br>
+    <input type="text" id="namein" name="namein" placeholder="Enter the new Name" value="" [(ngModel)]="adatom.name">  <br><br>
+    <label for="URLin">URL:</label><br>
+    <input type="text" id="URLin" name="URLin" placeholder="Enter the URL" value="" [(ngModel)]="adatom.url">  <br><br>
+
+
+    <button type="submit" value="Add" (click)="modi()">Modify</button>
+
+
+    </div>
+</form>
+

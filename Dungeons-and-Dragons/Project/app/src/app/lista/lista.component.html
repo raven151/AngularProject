@@ -1,0 +1,29 @@
+<form>
+<h2>List of classes</h2>
+
+
+
+<table class="tableClass">
+    <thead>
+<th>Index</th>
+<th>Name</th>
+<th>Url</th>
+</thead>
+<tbody>
+    <tr *ngFor="let adat of service.adatom">
+        
+        <td>{{adat.index}}</td>
+        <td>{{adat.name}}</td>
+        <td>{{adat.url}}</td>
+
+
+
+    </tr>
+
+
+</tbody>
+
+
+</table>
+
+</form>

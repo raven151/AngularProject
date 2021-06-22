@@ -1,0 +1,22 @@
+
+<form>
+
+<h2>Add a new class</h2>
+<div class="form">
+
+    <label for="indexin">Index:</label><br>
+    <input type="text" id="indexin" name="indexin" placeholder="Enter the Name" value="" [(ngModel)]="adat.index">  <br><br>
+
+    <label for="namein">Name:</label><br>
+    <input type="text" id="namein" name="namein" placeholder="Enter the Name" value="" [(ngModel)]="adat.name">  <br><br>
+
+    <label for="Urlin">URL:</label><br>
+    <input type="text" id="Urlin" name="Urlin" placeholder="Enter the Name" value="" [(ngModel)]="adat.url">  <br><br>
+
+
+
+    <button type="submit" value="Savebtn" (click)="save()">Add</button>
+
+
+    </div>
+</form>
